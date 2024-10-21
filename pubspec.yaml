@@ -1,0 +1,39 @@
+name: uniguide
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.2.0+3
+  sms_autofill: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: "Proxima Nova"
+      fonts:
+        - asset: assets/fonts/Proxima-Nova-Alt-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Proxima-Nova-Alt-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/Proxima-Nova-Bold.otf
+          weight: 700
